@@ -185,7 +185,7 @@
          |Preconditions|   1. The LSU Visitor must establish Internet Connection. |
          || 2. The LSU Visitor must enable GPS Service on their Android Device.                                                       |
          ||  3. LSU Visitor opened the LSU Geaux Application.
-         |                   |4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)|                                                                                      
+         || 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)|                                                                                      
          |Basic Course of Events|  1. LSU Visitor selects the Choose button.|
          ||                       2. System prompts LSU Visitor to choose a Tour from a displayed [list of Landmarks.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture4.png)
          ||                       3. LSU Visitor selects a Tour from the displayed list.
