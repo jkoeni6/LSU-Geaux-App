@@ -176,7 +176,8 @@
 
    2. ## Select A Tour Feature	
       1. The Select A Tour Feature is the second highest priority feature of the software system. It constitutes a priority 2 feature. This is also moderate risk feature of priority 4. If this feature would pass a failure message the core feature of the system would remain intact. Successful implementation of this feature secures benefit of priority 3. This feature is will be performed by LSU Visitors in priority 3 frequency.
-      2. | Item |             UC 2  Select A Tour Feature                      |
+      2. 
+      | Item |             UC 2  Select A Tour Feature                      |
          |------------|--------------------------------|
          |Summary | LSU Visitor chooses a suggested tour.                                  |
          |Rational|       LSU Visitor may need suggestions from the System as to what LSU campus Landmarks ought to be toured.                            |
@@ -195,7 +196,8 @@
       3. Refer to UC 1.3 to scope the Functional Requirements for Section 4.2.
    3. ## Class/Location Finder
       1.  The Class/Location Finder is the third highest priority feature of the software system. It constitutes a priority 3 feature. This is also high risk feature of priority 2. If this feature would pass a failure message the core feature of the system would remain intact, however the application's find functionality will be interrupted. Successful implementation of this feature secures benefit of priority 2. This feature is will be performed by LSU Visitors in priority 2 frequency. 
-      2. | Item |             UC 3  Class/Location Finder                      |
+      2.
+      | Item |             UC 3  Class/Location Finder                      |
          |------------|--------------------------------|
          |Summary |    LSU Visitor finds a specific location on the LSU campus.                               |
          |Rational|    An LSU Visitor that has the characteristic of also being a student at LSU should be able to find their class locations.                               |
