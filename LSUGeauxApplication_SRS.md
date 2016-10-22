@@ -72,18 +72,18 @@
      3. ####	Intended Audience and Reading Suggestions
 
            This SRS document will list the product's functional and non-functional requirements in tabular format. Features in Section 4 are listed in priority order with the earliest implemented feature listed first. Features 5 and 6 constitute desirable features.   This document will enumerate required interfaces and hardware constraints. The writers of this document recommend that the reader read the document in sequential order such that Section 1 is read first and so on.  Developers ought to read Section 4 and 5 first. Project managers are asked to follow the sequential reading specification detailed above. Documentation writers ought to read Sections 2, 3, 4, and 5. Testers ought to read the Appendix B: Analysis Models Section.  Users should read Sections 1, 2, and 3.
-    4. ####	Product Scope
+     4. #### Product Scope
        The LSU Geaux Application will service the LSU community by providing a dynamic and interactive thoroughfare through which users can create a tour of LSU's campus, select from a set of premade tours around LSU's campus, find a specific building on campus, and save a frequently used path. The mission of the application, molded by public necessity and client feedback, is to cater to incoming students by providing a means to traverse LSU's campus in an informed and timely manner. The LSU Geaux Application will fill a market gap left by its failed competitor-the LSU Mobile App.  
 
-    5. ####	References
+     5. #### References
        1. Consult IEEE std 830-1998 for insights into this document's formatting.
        2. [Link to Markdown Syntax](http://daringfireball.net/projects/markdown/)
        
 2. #	Overall Description
-   1. ####	Product Perspective
+   1. #### Product Perspective
       Market analysis supported project feasibility.  Under further market analysis, the official LSU GPS-enabled application-LSU Mobile-failed to provide our pivotal feature-tour creation. In response to user feedback, the developers of the LSU Geaux Application determined that the software-user interactivity provided by the LSU Geaux Application ought to starkly contrast the purely navigation motivated LSU Mobile Application. The product initially began production in January of 2016 as mandated by LSU CSC 3380.  The development team decided to continue its production due to positive peer reviews and the prospect of continuing to serve the LSU community. 
 
-   2. ####	Product Functions
+   2. #### Product Functions
       The LSU Geaux Application will allow the user to participate in one from the following features:
 
         * Select a [suggested tour.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture4.png)
@@ -103,7 +103,7 @@
     
        For more information about product functionality [see the project state transition diagram.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/state_transition_diagram_srs_final.jpg)
        
-   3. #### 	User Classes and Characteristics
+   3. #### User Classes and Characteristics
       The LSU Geaux Application will aid anyone touring LSU's campus or finding the location of a class. However for the purpose of requirements and feature specification this document will list one generic user with cardinality of one to many.  The generic user will be classified as an LSU Visitor. The only characteristic required of the LSU Visitor is that they are in possession of Android phone and have the application installed. Thus the target audience includes non-students, students, and LSU staff. As a result the application does not specify priority users. All users possess the same privileges as it is the mission of the application to aid all users equally. 
 
     4. #### Operating Environment
@@ -111,26 +111,26 @@
 
     5. #### Design and Implementation Constraints
       The LSU Geaux Application is implemented with a object-oriented style following the agile methodology called the *Unified Process*. Time and storage handling constitute two  main high-risk constraints for the developers of this software. Also, the user is expected to have a device running in android with Google services available such as Google maps and connection to the internet is required for the app correct execution.
-    6. ####	User Documentation
+    6. #### User Documentation
       The product version 1.1 does not have any manual, online help, or tutorials implemented. However, if the project timeline allows, the development team holds a user manual, online help, and tutorials as a TBD item.
-    7. ####	Assumptions and Dependencies
+    7. #### Assumptions and Dependencies
       The LSU Visitor is expected to have a device running the Android OS 6.0.1 or higher with Google Maps Services enabled as long as the app is executed. The LSU Geaux application relies heavily on the capability of Google Maps Services and smartphone usage  with the ability to connect to the Internet.
 
-3. #	External Interface Requirements
-   1. #### 	User Interfaces
+3. # External Interface Requirements
+   1. ####  User Interfaces
       The LSU Geaux Application implements a developer-made GUI using Java Studio API 21.  [The Core Feature Layout](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png) displays buttons which allow the LSU Visitor to select among several options initiating several use cases. The Create A Tour user interface displays a GPS location fragment, pictures, and Landmark text description. However, this application presents a design constraint in so much as it was designed to be implemented on a vertically oriented display. The software is constrained to only be displayed in a vertical position. 
 
-   2. #### 	Hardware Interfaces
+   2. #### Hardware Interfaces
       The application is dependent on the hardware capabilities an Android device. Each LSU Visitor location request the software requires user to touch display interaction. Faulty hardware display screens that are either cracked or defaced may constitute problems with software to hardware communication protocol. Any Android device with these hardware features and Android Java API 21 compatibility is desirable as a target device. 
 
-   3. ####	Software Interfaces
+   3. #### Software Interfaces
       The LSU Geaux Application's GPS capability window implements a fragment which makes a remote call to the Google Maps API. Therefore, this software is dependent on the capability of Google Maps. The remainder of implemented functions are local which ensures that the program will run on an Android device with API 21 compatibility without being completely dependent on any other external software.
-	4. #### 	Communications Interfaces
+	4. #### Communications Interfaces
 
 	   The LSU Geaux Application requests and acquires GPS location. Internet capability is necessary for proper execution of this application. The remainder of the application is executed without any other external function. 
 
 
-4. #	System Features
+4. # System Features
    1. ## Create A Tour Feature	
       1. The Create A Tour Feature is the pivotal feature of the software system. It constitutes a priority 1 feature. This is also the highest risk feature priority 1. If this feature would pass a failure message the core feature of the system would fail. Successful implementation of this feature secures benefit of priority 1. This feature is will be performed by the majority of LSU Visitors in a priority 1 frequency.
       2. | Item |             UC 1  Creates A Tour Feature                      |
