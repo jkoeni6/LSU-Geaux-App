@@ -61,7 +61,7 @@
 |      |      |                    |         |
 |      |      |                    |         |
 
-1. 	# Introduction
+1. # Introduction
      1.	#### Purpose
 
         The purpose of this document is to provide insight into the software requirements, structure, and design for the 1.1 version of the LSU Geaux Application.  This SRS document will provide functional and nonfunctional requirement specifications in a system-wide description of the LSU Geaux Application.
