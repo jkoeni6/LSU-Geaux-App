@@ -64,13 +64,12 @@
      1.	#### Purpose
 
         The purpose of this document is to provide insight into the software requirements, structure, and design for the 1.1 version of the LSU Geaux Application.  This SRS document will provide functional and nonfunctional requirement specifications in a system-wide description of the LSU Geaux Application.
-	  2. ####	Document Conventions
+     2. ####	Document Conventions
  
 	    	This document follows the IEEE std 830-1998 template.  Documentation follows Markdown syntax according to Markdown Version 1.0.1 specified by John Gruber. 
      3. ####	Intended Audience and Reading Suggestions
 
-           This SRS document will list the product's functional and non-functional requirements in tabular format. Features in Section 4 are listed in priority order with the earliest implemented feature listed first. Features 5 and 6 constitute desirable features.   This document will enumerate required interfaces and hardware constraints.     
-The writers of this document recommend that the reader read the document in sequential order such that Section 1 is read first and so on.  Developers ought to read Section 4 and 5 first. Project managers are asked to follow the sequential reading specification detailed above. Documentation writers ought to read Sections 2, 3, 4, and 5. Testers ought to read the Appendix B: Analysis Models Section.  Users should read Sections 1, 2, and 3.
+           This SRS document will list the product's functional and non-functional requirements in tabular format. Features in Section 4 are listed in priority order with the earliest implemented feature listed first. Features 5 and 6 constitute desirable features.   This document will enumerate required interfaces and hardware constraints. The writers of this document recommend that the reader read the document in sequential order such that Section 1 is read first and so on.  Developers ought to read Section 4 and 5 first. Project managers are asked to follow the sequential reading specification detailed above. Documentation writers ought to read Sections 2, 3, 4, and 5. Testers ought to read the Appendix B: Analysis Models Section.  Users should read Sections 1, 2, and 3.
     4. ####	Product Scope
        The LSU Geaux Application will service the LSU community by providing a dynamic and interactive thoroughfare through which users can create a tour of LSU's campus, select from a set of premade tours around LSU's campus, find a specific building on campus, and save a frequently used path. The mission of the application, molded by public necessity and client feedback, is to cater to incoming students by providing a means to traverse LSU's campus in an informed and timely manner. The LSU Geaux Application will fill a market gap left by its failed competitor-the LSU Mobile App.  
 
