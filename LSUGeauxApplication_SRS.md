@@ -244,6 +244,7 @@
 
 5. # Other Nonfunctional Requirements
    1. #### Performance Requirements
+   
          | Item |      NFReq 1     Scalability                     |
          |------------|--------------------------------|
          |Summary |        The Landmark list ought to be scalable in that it should be expanded by more than 10 Landmarks.                           |
