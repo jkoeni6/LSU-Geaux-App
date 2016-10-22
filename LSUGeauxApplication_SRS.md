@@ -102,17 +102,18 @@
       * GPS location of a Landmark with GPS-guided path from the user's current position to the landmark.
     
        For more information about product functionality [see the project state transition diagram.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/state_transition_diagram_srs_final.jpg)
+       
    3. #### 	User Classes and Characteristics
       The LSU Geaux Application will aid anyone touring LSU's campus or finding the location of a class. However for the purpose of requirements and feature specification this document will list one generic user with cardinality of one to many.  The generic user will be classified as an LSU Visitor. The only characteristic required of the LSU Visitor is that they are in possession of Android phone and have the application installed. Thus the target audience includes non-students, students, and LSU staff. As a result the application does not specify priority users. All users possess the same privileges as it is the mission of the application to aid all users equally. 
 
-     4. #### Operating Environment
+    4. #### Operating Environment
          The application will operate on any Android device with Android OS 6.0.1 or higher. It was developed in the Android Studio IDE with API Version 21 and ought to run on any API greater than or equal to the 21st version. The LSU Visitor also must enable Google Maps services available on his or her Android device.  
 
-   5. #### Design and Implementation Constraints
+    5. #### Design and Implementation Constraints
       The LSU Geaux Application is implemented with a object-oriented style following the agile methodology called the *Unified Process*. Time and storage handling constitute two  main high-risk constraints for the developers of this software. Also, the user is expected to have a device running in android with Google services available such as Google maps and connection to the internet is required for the app correct execution.
-   6. ####	User Documentation
+    6. ####	User Documentation
       The product version 1.1 does not have any manual, online help, or tutorials implemented. However, if the project timeline allows, the development team holds a user manual, online help, and tutorials as a TBD item.
-   7. ####	Assumptions and Dependencies
+    7. ####	Assumptions and Dependencies
       The LSU Visitor is expected to have a device running the Android OS 6.0.1 or higher with Google Maps Services enabled as long as the app is executed. The LSU Geaux application relies heavily on the capability of Google Maps Services and smartphone usage  with the ability to connect to the Internet.
 
 3. #	External Interface Requirements
