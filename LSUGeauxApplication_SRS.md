@@ -176,8 +176,7 @@
 
    2. ## Select A Tour Feature	
       1. The Select A Tour Feature is the second highest priority feature of the software system. It constitutes a priority 2 feature. This is also moderate risk feature of priority 4. If this feature would pass a failure message the core feature of the system would remain intact. Successful implementation of this feature secures benefit of priority 3. This feature is will be performed by LSU Visitors in priority 3 frequency.
-      2. 
-      | Item |             UC 2  Select A Tour Feature                      |
+      2. | Item |             UC 2  Select A Tour Feature                      |
          |------------|--------------------------------|
          |Summary | LSU Visitor chooses a suggested tour.                                  |
          |Rational|       LSU Visitor may need suggestions from the System as to what LSU campus Landmarks ought to be toured.                            |
@@ -193,12 +192,12 @@
          ||    5. LSU Visitor taps the Android device's back button.|
          ||    6. System displays the next Landmark's GPS location, GPS guided path, and description text.|                   
          |References |   FReq 1, FReq 2, FReq 3, NFReq 1                            |
+	 
       3. Refer to UC 1.3 to scope the Functional Requirements for Section 4.2.
       
    3. ## Class/Location Finder
       1.  The Class/Location Finder is the third highest priority feature of the software system. It constitutes a priority 3 feature. This is also high risk feature of priority 2. If this feature would pass a failure message the core feature of the system would remain intact, however the application's find functionality will be interrupted. Successful implementation of this feature secures benefit of priority 2. This feature is will be performed by LSU Visitors in priority 2 frequency. 
-      2.
-      | Item |             UC 3  Class/Location Finder                      |
+      2. | Item |             UC 3  Class/Location Finder                      |
          |------------|--------------------------------|
          |Summary |    LSU Visitor finds a specific location on the LSU campus.                               |
          |Rational|    An LSU Visitor that has the characteristic of also being a student at LSU should be able to find their class locations.                               |
@@ -214,6 +213,7 @@
          ||    5. LSU Visitor taps the Android device's back button.|
          ||    6. System returns LSU Visitor to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)|                     
          |References |      FReq 1, FReq 2, FReq 3, NFReq 1                         |
+	 
       3. Refer to UC 1.3 to scope the Functional Requirements for Section 4.3.
       
    4. ## Save A Tour Feature
@@ -234,6 +234,7 @@
          || 4. System accesses the Android device's memory and Saves the Tour.
          || 5. LSU Visitor can view the Save Tour by accessing the Premade Tour list.               
          |References |              Extends UC 1 and UC 3, FReq 1, FReq 2, FReq 3, FReq 4                |
+	 
       3. | Item |             Functional Requirement 4:  File Manipulation                   |
          |------------|--------------------------------|
          |Summary |       The System must be able to manipulate files in Android device's memory.                            |
@@ -241,7 +242,7 @@
          |Requirements |        When LSU Visitor installs the application, the System will prompt LSU Visitor to share file manipulation. LSU Visitor must go to their Android device's Options menu. LSU Visitor must then select Settings. LSU Visitor must find the location of the System and enable file manipulation. If LSU Visitor does not enable memory manipulation the System will display an error and will not execute the application's features.                              |
          |References |         UC 1, UC 2, UC 4                       |
 
-5. # 	Other Nonfunctional Requirements
+5. # Other Nonfunctional Requirements
    1. #### Performance Requirements
          | Item |      NFReq 1     Scalability                     |
          |------------|--------------------------------|
@@ -250,18 +251,18 @@
          |Requirements|   The developement team must be aware of any Landmarks on campus that can be mapped to by Google Maps. The developement team must then expand the Landmark list by at least 10 unlisted Google Maps mapped Landmarks.                  |
          |References |  UC 2, UC 3                              |
 	 
-   2. ####	Safety Requirements
+   2. #### Safety Requirements
 
         When using this application in order to avoid personal injury, ought to take necessary precautions. An LSU Visitor following the software instructions may lose physical awareness and on his or her way may befall harm by being hit by other entities. 
 At all times, the LSU Visitor is required to be aware of the status of the path that the application is asking the user to take.
 
-   3. ####	Security Requirements
+   3. #### Security Requirements
 
 	    This product does not require the user to create a profile in order to take a tour. This product is not intended to store or access any sensitive information from the user. The software possesses a low security requirements.
-   4. ####	Software Quality Attributes
+   4. #### Software Quality Attributes
 
         This product has the quality of adaptability, usability, flexibility, and maintainability. These ensure its ease of use and provide a user-friendly product which can be taken to other campus locations in order to serve other campuses.
-   5. ###	Business Rules
+   5. #### Business Rules
        The LSU Geaux App has to be easy to use since any person of any age may use the application. Any user is allowed to use any function presented by the software and the software is expected to run on any Android device. 
 
 
