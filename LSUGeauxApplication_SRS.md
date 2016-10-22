@@ -194,6 +194,7 @@
          ||    6. System displays the next Landmark's GPS location, GPS guided path, and description text.|                   
          |References |   FReq 1, FReq 2, FReq 3, NFReq 1                            |
       3. Refer to UC 1.3 to scope the Functional Requirements for Section 4.2.
+      
    3. ## Class/Location Finder
       1.  The Class/Location Finder is the third highest priority feature of the software system. It constitutes a priority 3 feature. This is also high risk feature of priority 2. If this feature would pass a failure message the core feature of the system would remain intact, however the application's find functionality will be interrupted. Successful implementation of this feature secures benefit of priority 2. This feature is will be performed by LSU Visitors in priority 2 frequency. 
       2.
@@ -214,6 +215,7 @@
          ||    6. System returns LSU Visitor to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)|                     
          |References |      FReq 1, FReq 2, FReq 3, NFReq 1                         |
       3. Refer to UC 1.3 to scope the Functional Requirements for Section 4.3.
+      
    4. ## Save A Tour Feature
       1. The Save A Tour Feature is the fourth highest priority feature of the software system. It constitutes a priority 4 feature. This is also high risk feature of priority 3. If this feature would pass a failure message the core feature of the system would remain intact, however the application's save functionality will be interrupted. Successful implementation of this feature secures benefit of priority 2. This feature is will be performed by LSU Visitors in priority 1 frequency. 
       2. | Item |             UC 4  Save A Tour Feature                      |
@@ -247,6 +249,7 @@
          |Rational|          If the System is not scalable, LSU Visitors will not be able to find Landmarks that are required to complete their Tours.                         |                          
          |Requirements|   The developement team must be aware of any Landmarks on campus that can be mapped to by Google Maps. The developement team must then expand the Landmark list by at least 10 unlisted Google Maps mapped Landmarks.                  |
          |References |  UC 2, UC 3                              |
+	 
    2. ####	Safety Requirements
 
         When using this application in order to avoid personal injury, ought to take necessary precautions. An LSU Visitor following the software instructions may lose physical awareness and on his or her way may befall harm by being hit by other entities. 
