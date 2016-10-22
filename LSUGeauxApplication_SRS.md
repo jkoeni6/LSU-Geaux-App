@@ -249,12 +249,12 @@
 5. # Other Nonfunctional Requirements
    1. #### Performance Requirements
    
-         | Item |      NFReq 1     Scalability                     |
+         | Item |      NFReq 1     Scalability         |
          |------------|--------------------------------|
-         |Summary |        The Landmark list ought to be scalable in that it should be expanded by more than 10 Landmarks.                           |
+         |Summary |        The Landmark list ought to be scalable in that it should be expanded by more than 10 Landmarks.                                                             |
          |Rational|          If the System is not scalable, LSU Visitors will not be able to find Landmarks that are required to complete their Tours.                         |                          
-         |Requirements|   The developement team must be aware of any Landmarks on campus that can be mapped to by Google Maps. The developement team must then expand the Landmark list by at least 10 unlisted Google Maps mapped Landmarks.                  |
-         |References |  UC 2, UC 3                              |
+         |Requirements|   The developement team must be aware of any Landmarks on campus that can be mapped to by Google Maps. The developement team must then expand the Landmark list by at least 10 unlisted Google Maps mapped Landmarks.                                                                             |
+         |References |  UC 2, UC 3            |
 	 
    2. #### Safety Requirements
 
@@ -268,6 +268,7 @@ At all times, the LSU Visitor is required to be aware of the status of the path 
 
         This product has the quality of adaptability, usability, flexibility, and maintainability. These ensure its ease of use and provide a user-friendly product which can be taken to other campus locations in order to serve other campuses.
    5. #### Business Rules
+   
        The LSU Geaux App has to be easy to use since any person of any age may use the application. Any user is allowed to use any function presented by the software and the software is expected to run on any Android device. 
 
 
