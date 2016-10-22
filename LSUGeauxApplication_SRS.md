@@ -51,9 +51,13 @@
   3. Security Requirements
   4. Software Quality Attributes
   5. Business Rules
+  
 ## 6. Other Requirements
+
 ## Appendix A: Glossary
+
 ## Appendix B: Analysis Models
+
 ## Appendix C: To Be Determined List
 
 # Revision History
