@@ -66,8 +66,8 @@
 
         The purpose of this document is to provide insight into the software requirements, structure, and design for the 1.1 version of the LSU Geaux Application.  This SRS document will provide functional and nonfunctional requirement specifications in a system-wide description of the LSU Geaux Application.
      2. ####	Document Conventions
- 
-	    	This document follows the IEEE std 830-1998 template.  Documentation follows Markdown syntax according to Markdown Version 1.0.1 specified by John Gruber. 
+             
+	 This document follows the IEEE std 830-1998 template.  Documentation follows Markdown syntax according to Markdown Version 1.0.1 specified by John Gruber. 
      3. ####	Intended Audience and Reading Suggestions
 
            This SRS document will list the product's functional and non-functional requirements in tabular format. Features in Section 4 are listed in priority order with the earliest implemented feature listed first. Features 5 and 6 constitute desirable features.   This document will enumerate required interfaces and hardware constraints. The writers of this document recommend that the reader read the document in sequential order such that Section 1 is read first and so on.  Developers ought to read Section 4 and 5 first. Project managers are asked to follow the sequential reading specification detailed above. Documentation writers ought to read Sections 2, 3, 4, and 5. Testers ought to read the Appendix B: Analysis Models Section.  Users should read Sections 1, 2, and 3.
