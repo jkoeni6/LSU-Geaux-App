@@ -23,8 +23,8 @@
    2. Scope
    3. References
    4. Overview
-## 2. Main System Architecture
 
+## 2. Main System Architecture
    1. Complete System Architecture
 
 ## 3. Sub-Systems Architecture
@@ -79,9 +79,11 @@
 ## 1. Introduction
 
    1. #### Purpose
+
         The purpose of the System Software Design Document concerning the LSU Geaux Application is to enumerate the design, architectural, and organizational paradigms to be followed during the implementation phase of developement.
 
    2. #### Scope
+
         The LSU Geaux Application will service the LSU community by providing a dynamic and interactive thoroughfare through which users can create a tour of LSU's campus, select from a set of premade tours around LSU's campus, find a specific building on campus, and save a frequently used path. The mission of the application, molded by public necessity and client feedback, is to cater to incoming students by providing a means to traverse LSU's campus in an informed and timely manner. The LSU Geaux Application will fill a market gap left by its failed competitor-the LSU Mobile App.
 
   3. #### References
