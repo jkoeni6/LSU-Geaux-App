@@ -80,11 +80,11 @@
 
    1. #### Purpose
 
-        The purpose of the System Software Design Document concerning the LSU Geaux Application is to enumerate the design, architectural, and organizational paradigms to be followed during the implementation phase of developement.
+      The purpose of the System Software Design Document concerning the LSU Geaux Application is to enumerate the design, architectural, and organizational paradigms to be followed during the implementation phase of developement.
 
    2. #### Scope
 
-        The LSU Geaux Application will service the LSU community by providing a dynamic and interactive thoroughfare through which users can create a tour of LSU's campus, select from a set of premade tours around LSU's campus, find a specific building on campus, and save a frequently used path. The mission of the application, molded by public necessity and client feedback, is to cater to incoming students by providing a means to traverse LSU's campus in an informed and timely manner. The LSU Geaux Application will fill a market gap left by its failed competitor-the LSU Mobile App.
+      The LSU Geaux Application will service the LSU community by providing a dynamic and interactive thoroughfare through which users can create a tour of LSU's campus, select from a set of premade tours around LSU's campus, find a specific building on campus, and save a frequently used path. The mission of the application, molded by public necessity and client feedback, is to cater to incoming students by providing a means to traverse LSU's campus in an informed and timely manner. The LSU Geaux Application will fill a market gap left by its failed competitor-the LSU Mobile App.
 
   3. #### References
        LSU Geaux Application [Software Requirement Specification Document](https://github.com/jkoeni6/LSU-Geaux-App/blob/master/LSUGeauxApplication_SRS.md)
@@ -106,7 +106,7 @@
 
    1. Complete System Architecture
       
-      [Link to Complete System Architecture](https://www.draw.io/#LLogical_View.xml)
+      [Link to Complete System Architecture](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/20161102_224127.jpg)
 
    The LSU Geaux Application is implemented with a object-oriented style following the agile methodology called the *Unified Process*. All features will be implemented as objects with each object accepting LSU Visitor input. The Main Layout object will welcome the LSU Visitor to the application by connecting each Visitor to the Core Feature Layout object. The Core Feature Layout object will link to any combination of four possible linked objects:
     
