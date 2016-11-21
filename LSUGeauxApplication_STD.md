@@ -26,7 +26,7 @@
 | 2. The LSU Visitor must enable GPS Service on their Android Device. |
 | 3. LSU Visitor opened the LSU Geaux Application. |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)|        
-|Step|Action|Expected System Response|Pass/Fail|Comment|
+|Step| Action| Expected System Response| Pass/Fail|Comment|
 |----|------|------------------------|---------|-------|
 | 1.   | Tap the 'Create' Button      | The system displays a message asking the LSU Visitor to enter the number of Landmarks in the new Tour |         |       |
 | 2.   | Enter 1 as the number of Landmarks in the new Tour | The system displays the Landmark Layout| |    |
