@@ -82,7 +82,10 @@
 | 2. The LSU Visitor must enable GPS Service on their Android Device.           |
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)           |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.   | Tap the 'Create' Button    | The system displays a message asking the LSU Visitor to enter the number of Landmarks in the new Tour  |         |       |
 | 2.   | Enter 13 as the number of Landmarks in the new Tour| The system displays the Landmark Layout | | |
 | 3.   | Tap the Middleton Library Landmark Button | During the transition from the Landmark Layout, the system displays a toast saying 'You have 12 Landmarks left'. The system displays the text and GPS information associated with Middleton Library | | |
@@ -110,7 +113,10 @@
 | 2. The LSU Visitor must enable GPS Service on their Android Device.           |
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)           |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.  | Tap the 'Create' Button | The system displays a message asking the LSU Visitor to enter the number of Landmarks in the new Tour |         |       |
 | 2.  | Enter 21 as the number of Landmarks in the new Tour | The system will display a message of unsuccessful operation and displays the Core Feature Layout | | |
 | 3.  | Check post-condition 1| | | |
@@ -132,7 +138,10 @@
 | 2. The LSU Visitor must enable GPS Service on their Android Device.           |
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)  |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.   | Tap the 'Select' Button | The system displays the Select Feature Layout | | |
 | 2.   | Tap the Tour titled 'Student Union, Memorial Tower, Middleton Library, Foster Hall' | The system will display the Student Union Landmark screen | | |
 | 3.   | Tap the Back Button to view the next Landmark screen | The system will display the Memorial Tower Landmark Screen | | | 
@@ -158,7 +167,10 @@
 | 2. The LSU Visitor must enable GPS Service on their Android Device.           |
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png)           |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.  | Tap the 'Find' Button      |  The system will display the Landmark Layout  |  | |
 | 2.  | Tap any Landmark displayed | The system will display the appropriate Landmark screen | | |
 | 3.  | Tap the Back Button | The system will display the Core Feature Layout | | |
@@ -182,7 +194,10 @@
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png) |
 | 5. LSU Visitor created a 1 Landmark Tour |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.  | Entered 'Yes' | The system will display a prompt to save the Tour | |       |
 | 2.  | Tap the Back Button | The system will save the Tour and store it in the Select Feature Layout | | |
 | 3.  | Check post-condition 1 | | | |
@@ -207,7 +222,10 @@
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png) |
 | 5. LSU Visitor created a 20 Landmark Tour |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.  | Entered 'Yes' | The system will display a prompt to save the Tour | |       |
 | 2.  | Tap the Back Button | The system will save the Tour and store it in the Select Feature Layout | | |
 | 3.  | Check post-condition 1 | | | | 
@@ -232,7 +250,10 @@
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png) |
 | 5. LSU Visitor created a 13 Landmark Tour |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.  | Entered 'Yes' | The system will display a prompt to save the Tour | |       |
 | 2.  | Tap the Back Button | The system will save the Tour and store it in the Select Feature Layout | | |
 | 3.  | Check post-condition 1 | | | | 
@@ -257,7 +278,10 @@
 | 3. LSU Visitor opened the LSU Geaux Application.            |
 | 4. LSU Visitor  navigated to the [Core Feature Layout.](https://raw.githubusercontent.com/jkoeni6/LSU-Geaux-App/master/Picture3.png) |
 | 5. LSU Visitor created a 13 Landmark Tour |
+
+
 |Step|Action|Expected System Response|Pass/Fail|Comment|
+|----|------|------------------------|---------|-------|
 | 1.  | Entered 'No' | The system will display a prompt to save the Tour | |       |
 | 2.  | Tap the Back Button | The system will not save the Tour and store it in the Select Feature Layout | | |
 | 3.  | Check post-condition 1 | | | | 
