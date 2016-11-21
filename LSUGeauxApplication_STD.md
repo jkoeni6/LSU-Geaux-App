@@ -21,7 +21,7 @@
 |Short Description: Test the lower bounds of the Create a Tour Feature |
 
 |Pre-Conditions| | | | |
-|-------------|
+|-------------|--|--|--|--|
 | 1. The LSU Visitor must establish Internet Connection. |
 | 2. The LSU Visitor must enable GPS Service on their Android Device. |
 | 3. LSU Visitor opened the LSU Geaux Application. |
